@@ -1,4 +1,5 @@
 function Projects() {
+   console.log("Projects loaded");
 
   const projectList = [
     "Student Portfolio",

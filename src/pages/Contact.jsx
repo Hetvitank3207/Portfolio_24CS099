@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function Contact() {
+   console.log("Contact loaded");
 
   const [message, setMessage] = useState("");
 

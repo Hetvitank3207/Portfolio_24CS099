@@ -1,4 +1,5 @@
 function Home() {
+   console.log("Header loaded");
 
   const skills = [
     "HTML",
