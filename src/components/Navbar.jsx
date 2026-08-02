@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
-      <a href="#">Home</a> |{" "}
-      <a href="#">About</a> |{" "}
-      <a href="#">Skills</a> |{" "}
-      <a href="#">Projects</a>
+      <Link to="/">Home</Link> |{" "}
+      <Link to="/projects">Projects</Link> |{" "}
+      <Link to="/contact">Contact</Link>
+      <hr />
     </nav>
   );
 }

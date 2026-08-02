@@ -1,8 +1,8 @@
-function Header({ name, color }) {
+function Header({ name }) {
   return (
-    <header style={{ backgroundColor: color, padding: "15px" }}>
+    <header>
       <h1>{name}</h1>
-      <p>Student Portfolio</p>
+      <hr />
     </header>
   );
 }

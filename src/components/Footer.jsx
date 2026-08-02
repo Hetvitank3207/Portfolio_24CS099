@@ -1,7 +1,7 @@
-function Footer({ email }) {
+function Footer() {
   return (
     <footer>
-      <p>Email: {email}</p>
+      <hr />
       <p>© 2026 Student Portfolio</p>
     </footer>
   );
